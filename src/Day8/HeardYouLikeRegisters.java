@@ -24,7 +24,6 @@ public class HeardYouLikeRegisters {
             String secondary = elements.get(4);
             String operator = elements.get(5);
             String numb = elements.get(6);
-            System.out.println("something");
 
             if(continueThisShit(posValueMap, secondary, operator, numb)){
                 switch (instruction) {
